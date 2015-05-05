@@ -1,0 +1,25 @@
+fr:
+  layouts:
+    application:
+      language_options: "Choisissez votre langue"
+      ideas: "Idées"
+      new_idea: "Nouvelle idée"
+  ideas:
+    index:
+      heading_1: "Liste des idées"
+      heading_2_html: "Regardez cette vidéo fascinant en cliquant <a href='https://www.youtube.com/watch?v=cFdCzN7RYbw' target='blank'>ici</a>."
+      body_html: "Merci de l’avoir <b>regardé</b> !"
+    new:
+      new_idea: "Nouvelle idée"
+      back: "Retour"
+    show:
+      name: "Nom :"
+      description: "Description :"
+      sure: "Êtes-vous sûr ?"
+      edit: "Éditer"
+      delete: "Supprimer"
+      back: "Retour"
+    edit:
+      edit_idea: "Édition Idea"
+      show: "Montrer"
+      back: "Retour"
