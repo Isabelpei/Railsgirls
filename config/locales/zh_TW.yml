@@ -1,0 +1,25 @@
+zh_TW:
+  layouts:
+    application:
+      language_options: "選擇您的語言"
+      ideas: "想法"
+      new_idea: "新的想法"
+  ideas:
+    index:
+      heading_1: "清單的想法"
+      heading_2_html: "點擊觀看這個令人著迷的視頻<a href='https://www.youtube.com/watch?v=cFdCzN7RYbw' target='blank'>在這裡</a>。"
+      body_html: "感謝<b>看</b>！"
+    new:
+      new_idea: "新的想法"
+      back: "返回"
+    show:
+      name: "名稱"
+      description: "描述"
+      sure: "是否確定？"
+      edit: "編輯"
+      delete: "刪除"
+      back: "返回"
+    edit:
+      edit_idea: "編輯理念"
+      show: "顯示"
+      back: "返回"

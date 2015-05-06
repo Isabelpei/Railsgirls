@@ -1,0 +1,25 @@
+zh_CN:
+  layouts:
+    application:
+      language_options: "选择你的语言"
+      ideas: "思路"
+      new_idea: "新思路"
+  ideas:
+    index:
+      heading_1: "清单的想法"
+      heading_2_html: "关注点击这个迷人的视频<a href='https://www.youtube.com/watch?v=cFdCzN7RYbw' target='blank'>这里</a> 。"
+      body_html: "谢谢<b>看着</b> ！"
+    new:
+      new_idea: "新思路"
+      back: "后"
+    show:
+      name: "名字"
+      description: "描述"
+      sure: "你确定吗？"
+      edit: "编辑"
+      delete: "删除"
+      back: "后"
+    edit:
+      edit_idea: "编辑理念"
+      show: "演出"
+      back: "后"

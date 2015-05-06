@@ -1,17 +1,17 @@
 <p id="notice"><%= notice %></p>
 
 <div class="row">
-	<div class="col-md-9">
-		<%= image_tag(@idea.picture_url, width: '100%') if @idea.picture.present? %>
-	</div>
+  <div class="col-md-9">
+    <%= image_tag(@idea.picture_url, width: '100%') if @idea.picture.present? %>
+  </div>
 
-	<div class="col-md-3">
-		<p><b>Name</b><%= @idea.name %></p>
-		<p><b>Description: </b><%= @idea.description %></p>
-		<p>
-			<%= link_to t('edit'), edit_idea_path(@idea) %> |
-			<%= link_to 'Destroy', @idea, data: { confirm: 'Are you sure?' }, method: :delete %> |
-			<%= link_to 'Back', ideas_path %>
-		</p>
-	</div>
+  <div class="col-md-3">
+    <p><b><%= t('.name') %></b> <%= @idea.name %></p>
+    <p><b><%= t('.description') %></b> <%= @idea.description %></p>
+    <p>
+      <%= link_to t('.edit'), edit_idea_path(@idea) %> |
+      <%= link_to t('.delete'), @idea, data: { confirm: t('.sure') }, method: :delete %> |
+      <%= link_to t('.back'), ideas_path %>
+    </p>
+  </div>
 </div>
