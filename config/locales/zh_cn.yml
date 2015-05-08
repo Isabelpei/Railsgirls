@@ -1,6 +1,29 @@
-# zh_cn:
-# 	layouts:
-# 		application:
-# 			language_options: "View this page in:"
-#       # home_link: "Home"
-# 			edit: "Edit"
+zh_CN:
+  layouts:
+    application:
+      language_options: "选择你的语言"
+      ideas: "思路"
+      new_idea: "新思路"
+  ideas:
+    index:
+      heading_1: "思路清单"
+      heading_2_html: "关注点击这个迷人的视频<a href='https://www.youtube.com/watch?v=cFdCzN7RYbw' target='blank'>这里</a> 。"
+      body_html: "谢谢<b>观看</b> ！"
+    new:
+      new_idea: "新思路"
+      back: "返回"
+    show:
+      name: "名字"
+      description: "描述"
+      sure: "你确定吗？"
+      edit: "编辑"
+      delete: "删除"
+      back: "返回"
+    edit:
+      edit_idea: "编辑思路"
+      show: "显示"
+      back: "返回"
+    form:
+      name: 名称
+      description: 描述
+      picture: 图片
