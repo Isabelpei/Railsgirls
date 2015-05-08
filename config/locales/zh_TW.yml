@@ -6,9 +6,9 @@ zh_TW:
       new_idea: "新的想法"
   ideas:
     index:
-      heading_1: "清單的想法"
+      heading_1: "想法清單"
       heading_2_html: "點擊觀看這個令人著迷的視頻<a href='https://www.youtube.com/watch?v=cFdCzN7RYbw' target='blank'>在這裡</a>。"
-      body_html: "感謝<b>看</b>！"
+      body_html: "感謝<b>觀看</b>！"
     new:
       new_idea: "新的想法"
       back: "返回"
@@ -20,6 +20,10 @@ zh_TW:
       delete: "刪除"
       back: "返回"
     edit:
-      edit_idea: "編輯理念"
+      edit_idea: "編輯想法"
       show: "顯示"
       back: "返回"
+    form:
+      name: 名稱
+      description: 描述
+      picture: 圖片

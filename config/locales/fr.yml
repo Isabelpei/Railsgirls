@@ -23,3 +23,7 @@ fr:
       edit_idea: "Édition Idea"
       show: "Montrer"
       back: "Retour"
+    form:
+      name: Nom
+      description: Description
+      picture: Image
