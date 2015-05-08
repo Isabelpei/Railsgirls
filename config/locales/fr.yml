@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 fr:
   layouts:
     application:
@@ -28,11 +27,4 @@ fr:
       name: Nom
       description: Description
       picture: Image
-=======
-# fr:
-# 	layouts:
-# 		application:
-# 			language_options: "View this page in:"
-#       # home_link: "Home"
-# 			edit: "Edit"
->>>>>>> bdd831b22bb80170dc521f629dfba1491d68d56c
+
