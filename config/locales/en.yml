@@ -23,3 +23,9 @@ en:
       edit_idea: "Editing Idea"
       show: "Show"
       back: "Back"
+    form:
+      name: Name
+      description: Description
+      picture: Picture
+
+

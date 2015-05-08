@@ -12,15 +12,15 @@
   <% end %>
 
   <div class="field">
-    <%= f.label :name %><br>
+    <%= f.label(:name, "#{t('ideas.form.name')}".html_safe)%><br>
     <%= f.text_field :name %>
   </div>
   <div class="field">
-    <%= f.label :description %><br>
+    <%= f.label(:description, "#{t('ideas.form.description')}".html_safe)%><br>
     <%= f.text_area :description %>
   </div>
   <div class="field">
-    <%= f.label :picture %><br>
+    <%= f.label(:picture, "#{t('ideas.form.picture')}".html_safe)%><br>
     <%= f.file_field :picture %>
   </div>
   <div class="actions">
