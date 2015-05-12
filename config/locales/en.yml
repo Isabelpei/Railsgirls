@@ -27,5 +27,6 @@ en:
       name: Name
       description: Description
       picture: Picture
+      submit: "Create Idea"
 
 

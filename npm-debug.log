@@ -1,0 +1,143 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', '-g', 'autosave' ]
+2 info using npm@2.7.4
+3 info using node@v0.12.2
+4 silly cache add args [ 'autosave', null ]
+5 verbose cache add spec autosave
+6 silly cache add parsed spec { raw: 'autosave',
+6 silly cache add   scope: null,
+6 silly cache add   name: 'autosave',
+6 silly cache add   rawSpec: '',
+6 silly cache add   spec: '*',
+6 silly cache add   type: 'range' }
+7 verbose addNamed autosave@*
+8 silly addNamed semver.valid null
+9 silly addNamed semver.validRange *
+10 silly addNameRange { name: 'autosave', range: '*', hasData: false }
+11 silly mapToRegistry name autosave
+12 silly mapToRegistry using default registry
+13 silly mapToRegistry registry https://registry.npmjs.org/
+14 silly mapToRegistry uri https://registry.npmjs.org/autosave
+15 verbose addNameRange registry:https://registry.npmjs.org/autosave not in flight; fetching
+16 verbose request uri https://registry.npmjs.org/autosave
+17 verbose request no auth needed
+18 info attempt registry request try #1 at 1:56:59 PM
+19 verbose request id 325ab752105d041c
+20 verbose etag "KL9BML3X99SD8ZZBLR25KUP0"
+21 http request GET https://registry.npmjs.org/autosave
+22 http 304 https://registry.npmjs.org/autosave
+23 silly get cb [ 304,
+23 silly get   { date: 'Sat, 09 May 2015 20:56:59 GMT',
+23 silly get     via: '1.1 varnish',
+23 silly get     'cache-control': 'max-age=60',
+23 silly get     etag: '"KL9BML3X99SD8ZZBLR25KUP0"',
+23 silly get     age: '0',
+23 silly get     connection: 'keep-alive',
+23 silly get     'x-served-by': 'cache-lax1425-LAX',
+23 silly get     'x-cache': 'MISS',
+23 silly get     'x-cache-hits': '0',
+23 silly get     'x-timer': 'S1431205019.303753,VS0,VE41',
+23 silly get     vary: 'Accept' } ]
+24 verbose etag https://registry.npmjs.org/autosave from cache
+25 verbose get saving autosave to /Users/EmilyDu/.npm/registry.npmjs.org/autosave/.cache.json
+26 silly addNameRange number 2 { name: 'autosave', range: '*', hasData: true }
+27 silly addNameRange versions [ 'autosave',
+27 silly addNameRange   [ '0.1.0',
+27 silly addNameRange     '0.2.0',
+27 silly addNameRange     '0.2.1',
+27 silly addNameRange     '0.2.2',
+27 silly addNameRange     '0.2.3',
+27 silly addNameRange     '0.3.0',
+27 silly addNameRange     '0.3.1',
+27 silly addNameRange     '0.3.2',
+27 silly addNameRange     '1.0.0',
+27 silly addNameRange     '1.0.1',
+27 silly addNameRange     '1.0.2',
+27 silly addNameRange     '1.0.3' ] ]
+28 verbose addNamed autosave@1.0.3
+29 silly addNamed semver.valid 1.0.3
+30 silly addNamed semver.validRange 1.0.3
+31 silly cache afterAdd autosave@1.0.3
+32 verbose afterAdd /Users/EmilyDu/.npm/autosave/1.0.3/package/package.json not in flight; writing
+33 verbose afterAdd /Users/EmilyDu/.npm/autosave/1.0.3/package/package.json written
+34 silly install resolved [ { name: 'autosave',
+34 silly install resolved     version: '1.0.3',
+34 silly install resolved     description: 'A server for Chrome Devtools Autosave (https://github.com/NV/chrome-devtools-autosave)',
+34 silly install resolved     keywords: [ 'devtools' ],
+34 silly install resolved     bin: { autosave: './bin/autosave' },
+34 silly install resolved     scripts:
+34 silly install resolved      { autostart: './scripts/autostart.sh',
+34 silly install resolved        install: 'node ./scripts/install.js' },
+34 silly install resolved     preferGlobal: true,
+34 silly install resolved     author: { name: 'Nikita Vasilyev', email: 'me@elv1s.ru' },
+34 silly install resolved     main: 'index',
+34 silly install resolved     engines: { node: '>= 0.4.x' },
+34 silly install resolved     repository:
+34 silly install resolved      { type: 'git',
+34 silly install resolved        url: 'git://github.com/NV/chrome-devtools-autosave-server.git' },
+34 silly install resolved     bugs: { url: 'https://github.com/NV/chrome-devtools-autosave-server/issues' },
+34 silly install resolved     dependencies: { commander: '0.5.x' },
+34 silly install resolved     readme: 'A server for **[chrome-devtools-autosave](https://github.com/NV/chrome-devtools-autosave)**.\n\n## Installation\n\n1. Install [Node.js](http://nodejs.org/)\n2. Open a terminal (Terminal.app on Mac OS X, cmd.exe on Windows)\n3. Run `npm install -g autosave`\n\n> It fails with "Error: EACCES, permission denied". What should I do?\n\nRun the same command as an administrator. On Mac OS X and Linux it would be `sudo npm install -g autosave`.\n\n## Usage\n\nRun `autosave` in the terminal.\nYou should see something like "DevTools Autosave is running on http://127.0.0.1:9104".\n\n> It doesn’t work on Windows. I’m having `\'autosave\' is not recognized as an internal or external command`\n\nHave you tried turn it it off and on again? Seriously, restart the system.\n\n## Run on OS launch\n\nIt might be annoying to open a terminal and type "autosave↵" every time you need to run Autosave. On Mac OS X and Ubuntu you can run Autosave on OS launch as a <a href="http://en.wikipedia.org/wiki/Daemon_(computing)">daemon</a>. To do so run:\n\n    npm run-script -g autosave autostart\n\nIt is [not yet available](https://github.com/NV/chrome-devtools-autosave-server/issues/9) on other operation systems.\n',
+34 silly install resolved     readmeFilename: 'README.mdown',
+34 silly install resolved     _id: 'autosave@1.0.3',
+34 silly install resolved     dist:
+34 silly install resolved      { shasum: '212bb1c41f5a9a427679610335e0a21858ab07d0',
+34 silly install resolved        tarball: 'http://registry.npmjs.org/autosave/-/autosave-1.0.3.tgz' },
+34 silly install resolved     _npmVersion: '1.1.65',
+34 silly install resolved     _npmUser: { name: 'nv', email: 'me@elv1s.ru' },
+34 silly install resolved     maintainers: [ [Object] ],
+34 silly install resolved     directories: {},
+34 silly install resolved     _shasum: '212bb1c41f5a9a427679610335e0a21858ab07d0',
+34 silly install resolved     _resolved: 'https://registry.npmjs.org/autosave/-/autosave-1.0.3.tgz',
+34 silly install resolved     _from: 'autosave@*',
+34 silly install resolved     homepage: 'https://github.com/NV/chrome-devtools-autosave-server' } ]
+35 info install autosave@1.0.3 into /usr/local/lib
+36 info installOne autosave@1.0.3
+37 verbose installOne of autosave to /usr/local/lib not in flight; installing
+38 verbose lock using /Users/EmilyDu/.npm/_locks/autosave-d28aba7bd8efd30b.lock for /usr/local/lib/node_modules/autosave
+39 silly install write writing autosave 1.0.3 to /usr/local/lib/node_modules/autosave
+40 silly cache addNamed cb autosave@1.0.3
+41 verbose unbuild lib/node_modules/autosave
+42 silly gentlyRm /usr/local/lib/node_modules/autosave is being purged from base /usr/local
+43 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/autosave
+44 verbose tar unpack /Users/EmilyDu/.npm/autosave/1.0.3/package.tgz
+45 verbose tar unpacking to /usr/local/lib/node_modules/autosave
+46 silly gentlyRm /usr/local/lib/node_modules/autosave is being purged
+47 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/autosave
+48 silly gunzTarPerm modes [ '755', '644' ]
+49 error tar.unpack untar error /Users/EmilyDu/.npm/autosave/1.0.3/package.tgz
+50 verbose unlock done using /Users/EmilyDu/.npm/_locks/autosave-d28aba7bd8efd30b.lock for /usr/local/lib/node_modules/autosave
+51 verbose fstream_path /usr/local/lib/node_modules/autosave
+52 verbose fstream_type Directory
+53 verbose fstream_class DirWriter
+54 verbose stack Error: EACCES, mkdir '/usr/local/lib/node_modules/autosave'
+54 verbose stack     at Error (native)
+55 verbose fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+55 verbose fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53
+55 verbose fstream_stack FSReqWrap.oncomplete (fs.js:95:15)
+56 verbose cwd /Users/EmilyDu/projects/railsgirls-1
+57 error Darwin 14.3.0
+58 error argv "node" "/usr/local/bin/npm" "install" "-g" "autosave"
+59 error node v0.12.2
+60 error npm  v2.7.4
+61 error path /usr/local/lib/node_modules/autosave
+62 error code EACCES
+63 error errno -13
+64 error Error: EACCES, mkdir '/usr/local/lib/node_modules/autosave'
+64 error     at Error (native)
+64 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules/autosave']
+64 error   errno: -13,
+64 error   code: 'EACCES',
+64 error   path: '/usr/local/lib/node_modules/autosave',
+64 error   fstream_type: 'Directory',
+64 error   fstream_path: '/usr/local/lib/node_modules/autosave',
+64 error   fstream_class: 'DirWriter',
+64 error   fstream_stack:
+64 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+64 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53',
+64 error      'FSReqWrap.oncomplete (fs.js:95:15)' ] }
+65 error Please try running this command again as root/Administrator.
+66 verbose exit [ -13, true ]
+67 verbose unbuild lib/node_modules/autosave
+68 silly gentlyRm /usr/local/lib/node_modules/autosave is being purged from base /usr/local
+69 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/autosave

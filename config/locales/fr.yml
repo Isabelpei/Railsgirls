@@ -27,4 +27,5 @@ fr:
       name: Nom
       description: Description
       picture: Image
+      submit: "Créer Idée"
 
